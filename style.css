@@ -1,21 +1,37 @@
+body {
+  box-sizing: border-boxx;
+  margin: 0px;
+  background-color: black;
+  color: white;
+}
 main {
   height: 100vh;
   width: calc(100vh - 210px);
 }
 header {
   height: 60px;
+  padding: 20px;
   width: 100%;
+  box-sizing: border-box;
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid whitesmoke;
 }
+
 footer {
   height: 150px;
   width: 100%;
 }
 .login-btn {
   border: none;
-  width: 30px;
-  height: 20px;
+  width: 80px;
+  height: 30px;
+  border-radius: 8px;
+  font-weight: 750;
+  transition: 300ms ease-in-out;
+  &:hover {
+    background-color: rgb(241, 60, 60);
+    color: whitesmoke;
+  }
 }
