@@ -7,6 +7,7 @@ This is a repository made by me and my friends to practice web and app developme
 > Harshit <br>
 > Rasiq <br>
 > Akshay <br>
+> Daaim <br>
 
 ## Projects
 
@@ -15,17 +16,25 @@ This is a repository made by me and my friends to practice web and app developme
 ### TODOlist
 
 > index.html
-
-> > Input.
 >
-> > Buttom.
+> > Input-panel - Rasiq
 >
-> > Header.
+> > Header & footer - Harshit
 >
-> > Footer.
->
-> > List.
+> > List - Akshay
 
 > style.css
+>
+> > Input-panel - Harshit
+>
+> > Header & footer - Rasiq
+>
+> > List - Akshay
 
 > index.js
+>
+> > Input-panel - Rasiq
+>
+> > Header & footer - Akshay
+>
+> > List - Harshit
