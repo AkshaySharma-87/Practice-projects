@@ -5,14 +5,8 @@ body {
   color: white;
 }
 main {
-<<<<<<< HEAD
-  width: 100%;
-  height: calc(100vh - 210px);
-  box-sizing: border-box;
-=======
   width: 100vh;
   height: calc(100vh - 210px);
->>>>>>> babdbb73e48f2bbf0435e5f23951b50a99af3a88
 }
 header {
   height: 60px;
