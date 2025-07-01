@@ -5,8 +5,9 @@ body {
   color: white;
 }
 main {
-  height: 100vh;
-  width: calc(100vh - 210px);
+  width: 100%;
+  height: calc(100vh - 210px);
+  box-sizing: border-box;
 }
 header {
   height: 60px;
@@ -33,5 +34,34 @@ footer {
   &:hover {
     background-color: rgb(241, 60, 60);
     color: whitesmoke;
+  }
+}
+
+.list-container {
+  display: flex;
+  height: 250px;
+  overflow-y: scroll;
+  flex-direction: column;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  background-color: rgb(26, 26, 26);
+  width: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  h2 {
+    margin: 0;
+  }
+  ul {
+    padding: 0;
+    margin: 0;
+    li {
+      display: flex;
+      font-size: large;
+      font-weight: bold;
+      justify-content: space-between;
+      list-style-type: none;
+      padding: 10px;
+      border: 1px solid white;
+      margin: 10px 0;
+    }
   }
 }
